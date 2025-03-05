@@ -9,19 +9,16 @@ pip install -r requirements.txt
 python run.py
 ```
 
-to test the code.
+to run the code.
 
-The script loads the checkpoint and samples from the model on a test input.
-
-Due to the large size of the model (117T parameters), a machine with enough GPU memory is required to test the model with the example code.
-The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
-
+This model with 117 parameters can simultaneously present image, audio, video, and text in one content.
+ This model has video chat capabilities and you have to pay $5 per month to use it. 
 # Model Specifications
 
 DigitUltra_1Q_Base is currently designed with the following specifications:
 
 - **Parameters:** 117T
-- **Architecture:** Mixture of 128 Experts (MoE)
+- **Architecture:** Mixture of 128 Experts (MoE),Holographic, quantum,MOE QUANTUM
 - **Experts Utilization:** 64 experts used per token
 - **Layers:** 1024
 - **Attention Heads:** 150 for queries, 64 for keys/values
