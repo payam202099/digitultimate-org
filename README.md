@@ -22,7 +22,7 @@ DigitUltra_1Q_Base is currently designed with the following specifications:
 
 - **Parameters:** 117T
 - **Architecture:** Mixture of 128 Experts (MoE)
-- **Experts Utilization:** 1024 experts used per token
+- **Experts Utilization:** 64 experts used per token
 - **Layers:** 1024
 - **Attention Heads:** 150 for queries, 64 for keys/values
 - **Embedding Size:** 16,384
